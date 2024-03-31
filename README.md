@@ -38,7 +38,7 @@
 <li>For Windows, Open "keyboardTrack.bat" Windows Batch file. Process has been begun.</li></ul>
 <h3>How to Stop this program</h3>
 <ul><li>Press "ctrl + z + x" to stop listening and ends the process.</li></ul>
-<h3>Check "Task Manager"(Windows) or Process Tracking Application(Others) to "block or End the Process" in Processes tab at Task Manager.
+<h3>Check "Task Manager"(Windows) or Process Tracking Application(Others) to "block or End the Process" in Python which is available in Processes tab at Task Manager.
 <h3>Explaination</h3>
 <ol><li>In "pynput.keyboard" module, "Key" is used to represent  special keys on keyboard like "ctrl","escape",etc.</li>
 <li>"on_press(key)" function checks if "ctrl + z + x" keys are pressed to return False(Stops listener).</li>
